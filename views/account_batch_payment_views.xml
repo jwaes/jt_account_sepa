@@ -4,7 +4,7 @@
     <record id="view_batch_payment_form" model="ir.ui.view">
         <field name="name">account.batch.payment.form</field>
         <field name="model">account.batch.payment</field>
-        <field name="inherit_id" ref="	account_sepa.view_batch_payment_form_inherit"/>
+        <field name="inherit_id" ref="account_sepa.view_batch_payment_form_inherit"/>
         <field name="arch" type="xml">
             <xpath expr="//field[@name='sct_batch_booking']" position="attributes">
                 <attribute name="invisible" value="1"/>
