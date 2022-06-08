@@ -22,6 +22,7 @@
     # always loaded
     'data': [
         # 'security/ir.model.access.csv',
+        'views/account_batch_payment_views.xml',
     ],
     # only loaded in demonstration mode
     'demo': [
